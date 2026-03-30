@@ -1,0 +1,33 @@
+# Core Framework
+streamlit==1.32.0
+fastapi==0.135.2
+uvicorn==0.42.0
+
+# Data Processing
+pandas==3.0.1
+numpy==2.4.4
+
+# Computer Vision & Image Processing
+opencv-python==4.13.0.92
+pillow==12.1.1
+
+# Mapping & Visualization
+folium==0.15.1
+streamlit-folium==0.17.0
+
+# PDF Generation (FIXED: using fpdf2 for better Python 3 support)
+fpdf2==2.8.1
+
+# HTTP Requests (for backend integration)
+requests==2.31.0
+
+# Database
+# sqlite3 is built-in to Python, no install needed
+
+# CORS Support
+python-multipart==0.0.22
+
+# Authentication
+streamlit-authenticator==0.2.3
+extra-streamlit-components==0.1.60
+PyJWT==2.8.0
